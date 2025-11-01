@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Math; //pasang namespace
+
     class luaslingkaran {
         
         public const phi = 3.14;
@@ -22,9 +24,5 @@
         public static function testing() {
             echo "<br/>";
             echo "ini dari static";
-        }
-    }
-
-$lingkaran = new luaslingkaran(7);
-$lingkaran->tampil('roda');
-luaslingkaran::testing();
+        }
+    }
